@@ -1,11 +1,14 @@
 import Header from "./Header";
-import {FaFacebook, FaSearch, FaAlingJustify} from "react-icons/fa";
+import Stories from "./Stories.js";
+import UpFeed from "./UpFeed";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header/>
+      <Stories/>
+      <UpFeed/>
     </div>
   );
 }

@@ -1,0 +1,43 @@
+.upFeed{
+    background-color: white;
+    padding: 0 1%;
+}
+
+.upForm{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.upForm img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.upForm input{
+    position: relative;
+    top: -10px;
+    width: calc(98% - 40px);
+    margin-left: 1%;
+    height: 30px;
+    padding-left: 20px;
+    border: 0;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.upForm input:focus{
+    outline: 0;
+}
+
+.upType{
+    padding: 0 40px 10px 40px;
+    display: flex;
+}
+
+.streaming svg{
+    font-size: 25px;
+    color:#F3425F;
+}
