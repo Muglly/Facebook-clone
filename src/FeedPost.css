@@ -1,0 +1,36 @@
+.feedPost{
+    margin-top: 10px;
+    background-color: white;
+    padding: 2% 1%;
+    border-radius: 10px;
+}
+
+.feedPostSingle{
+    padding: 10px;
+}
+
+.feedPostSingle img, h3{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+.feedPostSingle h3 > span{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.feedPostSingle img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.feedPostContent p{
+    margin: 10px;
+}
+
+.feedPostContent img{
+    width: 100%;
+}

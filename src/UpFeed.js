@@ -1,5 +1,5 @@
 import "./UpFeed.css";
-import {FaVideo, FaSearch, FaAlignJustify} from "react-icons/fa";
+import {FaVideo, FaFileImage, FaSmile} from "react-icons/fa";
 import perfil from "./resources/perfil.jpg";
 
 function UpFeed (){
@@ -11,12 +11,23 @@ function UpFeed (){
                 <input type="text" placeholder="No que está pensando, Rafael?"/>
             </div>
             <div className="upType">
-                <div className="streaming">
+                <div className="upIcons streaming">
                     <FaVideo/>
                     <span>Video ao vivo</span>
                 </div>
+                <div className="upIcons photo">
+                    <FaFileImage/>
+                    <span>Video ao vivo</span>
+                </div>
+                <div className="upIcons emoji">
+                    <FaSmile/>
+                    <span>Video ao vivo</span>
+                </div>
             </div>
+            
         </div>
+
+        
     )
 
 }

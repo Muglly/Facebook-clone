@@ -1,7 +1,9 @@
 .stories{
+    background-color: white;
+    border-radius: 10px;
     display: flex;
     margin: 10px 0;
-    padding: 0 1% 0 2%;
+    padding: 2% 1% 2% 2%;
 }
 
 .storiesCard{

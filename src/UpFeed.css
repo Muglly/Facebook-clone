@@ -1,6 +1,7 @@
 .upFeed{
     background-color: white;
     padding: 0 1%;
+    border-radius: 10px;
 }
 
 .upForm{
@@ -10,21 +11,21 @@
 }
 
 .upForm img{
+    vertical-align: middle;
     display: inline-block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 .upForm input{
-    position: relative;
-    top: -10px;
+    vertical-align: middle;
     width: calc(98% - 40px);
     margin-left: 1%;
-    height: 30px;
+    height: 40px;
     padding-left: 20px;
     border: 0;
     background-color: rgb(230, 230, 230);
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 15px;
 }
 
@@ -37,7 +38,35 @@
     display: flex;
 }
 
-.streaming svg{
-    font-size: 25px;
-    color:#F3425F;
+.upIcons{
+    width: 33%;
+    text-align: center;
 }
+
+.upIcons svg{
+    vertical-align: middle;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.upIcons span{
+    vertical-align: middle;
+    color: grey;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.streaming{
+    color: #F3425F;
+    text-align: left;
+}
+
+.photo{
+    color: #45bd62;
+}
+
+.emoji{
+    color: #f7b928;
+    text-align: right;
+}
+
